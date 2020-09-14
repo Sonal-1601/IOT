@@ -13,4 +13,4 @@ def handle(msg):
   if content_type == 'text':
     bot.sendMessage(chat_id, "You said '{}'".format(msg["text"]))
     
-  bot.message_loop(handle)
+bot.message_loop(handle)
